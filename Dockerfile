@@ -1,5 +1,5 @@
 FROM surnet/alpine-wkhtmltopdf:3.19.0-0.12.6-full as wkhtmltopdf
-FROM php:8.1-fpm-alpine
+FROM php:8.3.36-fpm-alpine
 
 # Add general build dependencies
 RUN apk --update add wget \
